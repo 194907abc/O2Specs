@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "myruntime"
-  s.version      = "0.0.2"
+  s.name         = "runtime"
+  s.version      = "0.0.3"
   s.summary      = "A short description for text."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/194907abc/O2Specs.git"}
+  s.source       = { :git => "https://github.com/194907abc/O2Specs.git", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
