@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint myruntime.podspec' to ensure this is a
+#  Be sure to run `pod spec lint runtime.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/194907abc/O2Specs.git", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/194907abc/O2Specs.git", :tag => 0.0.3}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
